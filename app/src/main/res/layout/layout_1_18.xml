@@ -20,7 +20,7 @@
         android:layout_weight="1"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="Linear Layout task 1" />
+        android:text="@string/linear_layout_task_1" />
 
     <Button
         android:id="@+id/button"
@@ -28,6 +28,6 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:layout_gravity="start"
-        android:text="Don't click me" />
+        android:text="@string/don_t_click_me" />
 
 </LinearLayout>

@@ -20,13 +20,13 @@
         android:layout_weight="1"
         android:layout_marginStart="150dp"
         android:gravity="center"
-        android:text="Linear Layout task 1" />
+        android:text="@string/linear_layout_task_1" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="Don't click me" />
+        android:text="@string/don_t_click_me" />
 
 </LinearLayout>

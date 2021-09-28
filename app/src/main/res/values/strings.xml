@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">lab1_Layouts_Reymer</string>
+    <string name="linear_layout_task_1">Linear Layout task 1</string>
+    <string name="don_t_click_me">Don\'t click me</string>
+    <string name="remaining_space_n_task_1">Remaining space \n (task 1)</string>
+    <string name="button">Button</string>
+    <string name="constraint_layout_task_2">Constraint Layout task 2</string>
+    <string name="remaining_space_n_task_2">Remaining space \n (task 2)</string>
+    <string name="widget_1">widget 1</string>
+    <string name="widget_3">widget 3</string>
+    <string name="widget_4">widget 4</string>
+    <string name="widget_7">widget 7</string>
 </resources>

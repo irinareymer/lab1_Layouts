@@ -17,12 +17,12 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Remaining space \n (task 1)" />
+        android:text="@string/remaining_space_n_task_1" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="50dp"
         android:layout_height="match_parent"
         android:layout_weight="0"
-        android:text="Button" />
+        android:text="@string/button" />
 </LinearLayout>
