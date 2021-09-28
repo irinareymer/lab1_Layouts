@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.2" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.4" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.8" />
+
+        <CheckBox
+            android:id="@+id/w1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="widget 1"
+            android:gravity="center"
+            app:layout_constraintDimensionRatio = "2"
+            app:layout_constraintBottom_toTopOf="@id/w2"
+            app:layout_constraintStart_toEndOf="@id/w7"
+            app:layout_constraintTop_toBottomOf="@id/w4"
+            app:layout_constraintEnd_toStartOf="@id/w3" />
+
+        <ImageView
+            android:id="@+id/w2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            app:layout_constraintDimensionRatio = "2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/gl2"
+            app:layout_constraintTop_toBottomOf="@id/w1"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+            android:id="@+id/w3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="widget 3"
+            app:layout_constraintDimensionRatio = "2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/w1"
+            app:layout_constraintStart_toEndOf="@id/w1"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <RadioButton
+            android:id="@+id/w4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="widget 4"
+            android:gravity="center"
+            app:layout_constraintDimensionRatio="2"
+            app:layout_constraintBottom_toBottomOf="@id/w6"
+            app:layout_constraintStart_toEndOf="@id/w7"
+            app:layout_constraintEnd_toStartOf="@id/w3"
+            app:layout_constraintTop_toBottomOf="@id/w5" />
+
+        <ImageButton
+            android:id="@+id/w5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:srcCompat="@android:drawable/btn_dialog"
+            app:layout_constraintDimensionRatio = "2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/w4"
+            app:layout_constraintEnd_toStartOf="@id/gl2" />
+
+        <ProgressBar
+            android:id="@+id/w6"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio = "0.5"
+            app:layout_constraintStart_toEndOf="@id/w4"
+            app:layout_constraintEnd_toStartOf="@id/gl3"
+            app:layout_constraintBottom_toBottomOf="@id/w4"
+            app:layout_constraintTop_toTopOf="@id/w5" />
+
+        <TextView
+            android:id="@+id/w7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="widget 7"
+            android:gravity="center"
+            app:layout_constraintDimensionRatio = "0.5"
+            app:layout_constraintBottom_toBottomOf="@id/w1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/w5"
+            app:layout_constraintEnd_toStartOf="@id/gl1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
