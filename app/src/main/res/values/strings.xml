@@ -10,4 +10,7 @@
     <string name="widget_3">widget 3</string>
     <string name="widget_4">widget 4</string>
     <string name="widget_7">widget 7</string>
+    <string name="person">person</string>
+    <string name="star">star</string>
+    <string name="exit">exit</string>
 </resources>
