@@ -40,10 +40,8 @@
             android:text="@string/widget_1"
             android:gravity="center"
             app:layout_constraintDimensionRatio = "2"
-            app:layout_constraintBottom_toTopOf="@id/w2"
             app:layout_constraintStart_toEndOf="@id/w7"
-            app:layout_constraintTop_toBottomOf="@id/w4"
-            app:layout_constraintEnd_toStartOf="@id/w3" />
+            app:layout_constraintTop_toBottomOf="@id/w4" />
 
         <ImageView
             android:id="@+id/w2"
@@ -76,9 +74,7 @@
             android:gravity="center"
             app:layout_constraintDimensionRatio="2"
             app:layout_constraintBottom_toBottomOf="@id/w6"
-            app:layout_constraintStart_toEndOf="@id/w7"
-            app:layout_constraintEnd_toStartOf="@id/w3"
-            app:layout_constraintTop_toBottomOf="@id/w5" />
+            app:layout_constraintStart_toEndOf="@id/w7" />
 
         <ImageButton
             android:id="@+id/w5"
@@ -88,7 +84,6 @@
             app:layout_constraintDimensionRatio = "2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toTopOf="@id/w4"
-            app:layout_constraintEnd_toStartOf="@id/gl2"
             android:contentDescription="@string/exit" />
 
         <ProgressBar
@@ -99,7 +94,6 @@
             app:layout_constraintDimensionRatio = "0.5"
             app:layout_constraintStart_toEndOf="@id/w4"
             app:layout_constraintEnd_toStartOf="@id/gl3"
-            app:layout_constraintBottom_toBottomOf="@id/w4"
             app:layout_constraintTop_toTopOf="@id/w5" />
 
         <TextView
